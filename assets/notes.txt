@@ -1,0 +1,3 @@
+ng build --prod --base-href "https://belkallaf.github.io/ISERAWebSite/"
+
+ngh --dir=dist/ISERAWebSite
