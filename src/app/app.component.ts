@@ -12,7 +12,12 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void{
 
-    Aos.init();
+    Aos.init(
+      {
+        once: true,
+        mirror: false
+      }
+    );
 
     // this.loadJsFile('assets/vendor/owl.carousel/owl.carousel.min.js');
     // // this.loadJsFile('assets/vendor/counterup/counterup.min.js');
