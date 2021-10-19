@@ -4,10 +4,10 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 
 export const routes: Routes = [
   {
-    path: '',
+    path: 'home',
     component: HomePageComponent
   },
-  { path: '', redirectTo: '', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', redirectTo: 'error/404', pathMatch: 'full' },
 ];
 
